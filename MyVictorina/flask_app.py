@@ -89,7 +89,8 @@ def result():
     end_quiz()
     return html
 
-
+if __name__ == '__main__':
+    app.run()
 
 
 
